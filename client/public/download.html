@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Agents Directory - Download Source</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #6a1b9a;
+      margin-bottom: 1.5rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .download-btn {
+      display: inline-block;
+      background-color: #6a1b9a;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .download-btn:hover {
+      background-color: #8e24aa;
+    }
+    .steps {
+      margin-top: 2rem;
+    }
+    .steps ol {
+      padding-left: 1.5rem;
+    }
+    code {
+      background-color: #f0f0f0;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    .code-block {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      border-radius: 4px;
+      font-family: monospace;
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>AI Agents Directory - Source Code</h1>
+  
+  <div class="card">
+    <h2>Download Source Code</h2>
+    <p>Click the button below to download the source code of the AI Agents Directory website:</p>
+    <a href="/download-source" class="download-btn">Download ZIP File</a>
+  </div>
+  
+  <div class="steps">
+    <h2>Deployment Instructions</h2>
+    <ol>
+      <li>
+        <strong>Unzip the file:</strong>
+        <div class="code-block">unzip aiagentsdirectory_src.zip<br>cd deployment_src</div>
+      </li>
+      <li>
+        <strong>Install dependencies:</strong>
+        <div class="code-block">npm install</div>
+      </li>
+      <li>
+        <strong>Start the development server:</strong>
+        <div class="code-block">npm run dev</div>
+        <p>This will run the application on <code>http://localhost:5000</code></p>
+      </li>
+      <li>
+        <strong>For production deployment:</strong>
+        <div class="code-block">npm run build<br>npm run start</div>
+      </li>
+    </ol>
+  </div>
+  
+  <div class="card">
+    <h2>Project Structure</h2>
+    <ul>
+      <li><strong>/client</strong> - React frontend code</li>
+      <li><strong>/server</strong> - Express backend server</li>
+      <li><strong>/shared</strong> - Shared types and schemas</li>
+    </ul>
+    <p>The application uses an in-memory database by default, meaning all data will be reset when the server restarts.</p>
+  </div>
+</body>
+</html>
